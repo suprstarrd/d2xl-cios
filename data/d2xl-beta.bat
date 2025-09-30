@@ -1,4 +1,4 @@
-::d2x-beta.bat should be saved here in order for ModMii v4.6.0+ to use it: modules\More-cIOSs\{ANY FOLDER NAME}\d2x-beta.bat
+::d2xl-beta.bat should be renamed to d2x-beta.bat and saved here in order for ModMii v4.6.0+ to use it: modules\More-cIOSs\{ANY FOLDER NAME}\d2x-beta.bat
 
 ::--------update what comes after "d2x-beta-rev=" and "ciosversion=" below----------
 
@@ -59,4 +59,5 @@ set wadname=%wadname:~0,17%%d2x-beta-rev%
 if /i "%name:~0,17%" NEQ "Advanced Download" set name=%wadname%
 
 :endofd2xbat 
+
 
