@@ -5,6 +5,7 @@
 	Copyright (C) 2009 kwiirk.
 	Copyright (C) 2009 Hermes.
 	Copyright (C) 2009 Waninkoko.
+	Copyright (C) 2020 Leseratte.
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -38,7 +39,7 @@ int main(void)
 	s32 ret;
 
 	/* Print info */
-	svc_write("$IOSVersion: EHCI: " __DATE__ " " __TIME__ " 64M$\n");
+	svc_write("$IOSVersion: EHCI:  " __DATE__ " " __TIME__ " 64M " __D2XL_VER__ " $\n");
 
 	/* Initialize memory heap */
 	ret = Mem_Init(heapspace, sizeof(heapspace));

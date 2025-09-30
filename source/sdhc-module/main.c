@@ -5,6 +5,7 @@
 	Copyright (C) 2009 WiiGator.
 	Copyright (C) 2009 Waninkoko.
 	Copyright (C) 2011 davebaol.
+	Copyright (C) 2020 Leseratte.
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -163,7 +164,7 @@ int main(void)
 	s32 ret;
 
 	/* Print info */
-	svc_write("$IOSVersion: SDHC: " __DATE__ " " __TIME__ " 64M$\n");
+	svc_write("$IOSVersion: SDHC:  " __DATE__ " " __TIME__ " 64M " __D2XL_VER__ " $\n");
 
 	/* Initialize module */
 	ret = __SDHC_Initialize(&queuehandle);
